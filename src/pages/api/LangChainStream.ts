@@ -42,6 +42,7 @@ export function LangChainStream(payload: LangChainParams) {
       const chat = new ChatOpenAI(
         {
           streaming: true,
+          OPENAI_PROXY_URL: 'https://api.chatanywhere.tech',
           ...llm,
           // 暂时设定不重试 ，后续看是否需要支持重试
           maxRetries: 0,
