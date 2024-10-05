@@ -3,7 +3,7 @@ import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { AIMessage, HumanMessage, SystemMessage } from 'langchain/schema';
 
 const isDev = process.env.NODE_ENV === 'development';
-const OPENAI_PROXY_URL = process.env.OPENAI_PROXY_URL;
+const OPENAI_PROXY_URL = 'https://api.chatanywhere.tech';
 
 /**
  * @title OpenAI Stream Payload
