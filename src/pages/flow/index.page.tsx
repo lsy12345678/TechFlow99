@@ -13,7 +13,7 @@ const Flow: NextPage = () => {
       </Head>
       <FlowLayout>
         <Center flex={1} horizontal>
-          <Empty description={'新建任务流'} />
+          <Empty description={'AI创新工坊'} />
         </Center>
       </FlowLayout>
     </>
