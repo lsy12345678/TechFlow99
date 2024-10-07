@@ -55,7 +55,7 @@ export const flowCrudSlice: StateCreator<
       type: 'addFlow',
       flow: createFlow(
         flowId,
-        { title: '教育乐园' },
+        { title: 'AI创新工坊' },
         {
           [aiTaskNode.id]: aiTaskNode,
         },
