@@ -30,7 +30,7 @@ const Header = memo(() => {
           style={{ borderColor: 'transparent' }}
           onChange={(e) => useFlowStore.setState({ keywords: e.target.value })}
         />
-        <Tooltip arrow={false} title={'新的任务流'} placement={'right'}>
+        <Tooltip arrow={false} title={'教育乐园'} placement={'right'}>
           <Button icon={<PlusOutlined />} style={{ minWidth: 32 }} onClick={createFlow} />
         </Tooltip>
       </Flexbox>
